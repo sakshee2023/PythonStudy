@@ -8,5 +8,24 @@
 #3
 
 #output:
-#=
+
 #8
+
+print('Please enter the calculations :')
+num1=int(input())
+opr=input()
+num2=int(input())
+
+print('=')
+if opr =='+':
+    print(num1+num2)
+
+if opr =='-':
+    print(num1-num2)
+
+if opr =='*':
+    print(num1*num2)
+
+if opr =='/':
+    print(num1/num2)
+        
